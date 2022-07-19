@@ -6,7 +6,6 @@ html {
 }
 body {
   scroll-behavior: smooth;
-  margin: 0 auto;
   overflow: hidden;
 }
 section {
@@ -35,3 +34,58 @@ h6 {
 p {
   font-family: "Oswald";
 }
+/* utilities */
+section {
+  position: relative;
+  overflow: hidden;
+  width: 1600px;
+  height: 100%;
+}
+.container {
+  width: 1321px;
+  height: 100%;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.w-full {
+  width: 100%;
+}
+.w-half {
+  width: 50%;
+}
+.h-full {
+  height: 100%;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.btn-bg {
+  background: #dd0000;
+}
+/* banner area start */
+
+/* banner area ends */
