@@ -220,3 +220,30 @@ p {
   margin-left: 20px;
 }
 /* blog area ends */
+
+/* footer start */
+footer {
+  height: 444px;
+  display: flex;
+  background: #161616;
+  align-items: center;
+}
+.footer-top h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+.footer-bottom {
+  gap: 40px;
+  margin-top: 40px;
+}
+.footer-bottom p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #b9b9b9;
+}
+/* footer ends */
