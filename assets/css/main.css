@@ -6,7 +6,6 @@ html {
 }
 body {
   scroll-behavior: smooth;
-  overflow: hidden;
   width: 100%;
 }
 section {
@@ -82,13 +81,15 @@ p {
   outline: none;
 }
 .btn-bg {
-  background: #dd0000;
+  background: #dd0000 !important;
+  color: white !important;
 }
 /* banner area start */
 #top-banner {
   position: relative;
   height: 646px;
   overflow: hidden;
+  margin-top: 50px;
 }
 .top-banner {
   background: #161616;
@@ -140,3 +141,79 @@ p {
   width: 581px;
 }
 /* banner area ends */
+/* --------------------
+-----------------------
+-----------------------
+-----------------------
+*/
+/* blog area start */
+#body-blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.body-blog {
+}
+.blog-left-area {
+  height: 312px;
+  width: 312px;
+  border-radius: 10px;
+  background: #161616;
+}
+.blog-left-area-button {
+  height: 252px;
+  width: 252px;
+  border-radius: 10px;
+}
+.blog-left-area-button a {
+  height: 64px;
+  border-radius: 10px;
+  background: #ffffff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.blog-right-area {
+  width: 1000px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+.blog {
+  height: 362px;
+  width: 312px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.blog-info-container {
+  padding: 5px;
+}
+.blog button {
+  height: 32px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.blog p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  height: 54px;
+  width: 272px;
+  margin: 10px;
+}
+.blog-footer {
+  height: 26px;
+  width: 143px;
+  margin: 10px;
+}
+/* blog area ends */
