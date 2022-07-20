@@ -206,5 +206,8 @@
   .footer-top h1 {
     padding-bottom: unset;
   }
+  .footer-icon {
+    display: flex;
+  }
   /* footer ends */
 }
