@@ -219,6 +219,56 @@ p {
   margin-top: 15px;
   margin-left: 20px;
 }
+/* ------upcoming blog-------- */
+.upcoming-blog {
+  height: 242px;
+  width: 312px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.upcoming-blog-info-container {
+  height: 137px;
+  width: 252px;
+}
+.upcoming-blog-image {
+  height: 56px;
+  width: 252px;
+}
+.upcoming-blog-image b {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.upcoming-blog-info-container h3 {
+  height: 30px;
+  width: 202px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.upcoming-blog-info-container p {
+  height: 20px;
+  width: 166px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 10px;
+}
+.upcoming-blog-image img {
+  height: 56px;
+  width: 93px;
+}
+/* ------upcoming blog-------- */
+
 /* blog area ends */
 
 /* footer start */
