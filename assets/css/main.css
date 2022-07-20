@@ -133,6 +133,23 @@ p {
   letter-spacing: 0em;
   text-align: left;
 }
+
+/* ----------animation----------- */
+.top-banner:hover .banner-left-area h3 {
+  animation-name: textcolor;
+  animation-duration: 4s;
+}
+@keyframes textcolor {
+  0% {
+    font-style: italic;
+    font-size: 50px;
+    padding: 20px;
+  }
+  100% {
+    background-color: rgb(71, 71, 67);
+  }
+}
+/* ----------animation----------- */
 .banner-left-area button {
   height: 56px;
   width: 187px;
@@ -304,7 +321,7 @@ footer {
   gap: 40px;
   margin-top: 40px;
 }
-.footer-bottom p {
+.footer-bottom a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
