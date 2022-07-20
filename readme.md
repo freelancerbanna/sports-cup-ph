@@ -3,5 +3,5 @@
 ### Responsive and media
 
 Desktop- 1321px
-Tablet - 734px
+Tablet - 834px
 Mobile - 334px
